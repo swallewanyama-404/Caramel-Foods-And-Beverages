@@ -1,0 +1,206 @@
+
+body {
+    font-family:  sans-serif;
+    font-weight: 400;
+    background-color: #fdf6ec;
+    color: black;
+    line-height: 1.7;
+}
+.nav-menu {
+    background-color: #8f4913;       
+    padding: 18px 40px;
+    display: flex;                   
+    align-items: center;             
+    justify-content: space-between;                     
+}
+#main-container {    
+    background-image: url('/images/beverages.jpg');
+    background-size: cover;       
+    background-position: center;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    align-items: center;          
+    margin: 20px;
+    padding-left: 80px;
+}
+.main h1 {
+    font-size: 3rem;
+    color: #f5e6c8;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.main {
+    font-size: 1.15rem;
+    color: white;
+    margin-bottom: 25px;
+     position: relative;  
+}
+#main-content {
+    display: flex;                  
+    gap: 30px;
+    padding: 60px 60px;
+    justify-content: center;
+    flex-wrap: wrap;                 
+}
+#rsidebar {
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 1px  1px 1px black;  
+}
+.card, #rsidebar img, #lsidebar img {
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 1px  1px 1px black;  
+}
+#lsidebar {
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 1px  1px 1px black;        
+}
+.footer {
+    background-color: #521e02;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+.nav-links {
+    display: flex;
+    gap: 35px;                       
+    justify-content: center;
+    align-items: center;
+}
+.nav-links a {
+    color: wheat;                 
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding-bottom: 3px;
+    }
+.logo {
+    font-family:  serif;
+    color:white;                  
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;           
+}
+.about-banner {
+    background-image: url('/images/about_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;          
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+        margin: 30px;
+}
+.about-banner h2 {
+    position: relative;
+    font-size: 2.5rem;
+    color: white;
+}
+.about-banner p {
+    position: relative;
+    color: #f4a112;
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+.about-section {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;         
+    gap: 50px;
+    align-items: center;    
+}
+.about-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.about-text p {
+    color: black;
+    margin-bottom: 12px;
+    max-width: 480px;
+    text-align: center;
+}
+.contact-section {
+    display: flex;
+    gap: 50px;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+}
+.form {
+    flex: 1;
+    width: 500px;
+    background-color: white;
+    padding: 35px;
+    margin-left: 400px;
+   }
+.form h3 {
+    font-size: 24px;
+    color: black;
+}
+.form label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid ;
+    border-radius: 4px;
+    font-family:  sans-serif;
+    font-size: 14px;
+    background-color: white;
+    outline: none;
+    }
+.radio,
+.checkbox {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.radio input,
+.checkbox input {
+    width: auto;                   
+    margin-right: 5px;
+}
+.form .button {
+    width: 100%;
+    margin-top: 25px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding: 14px;
+}
